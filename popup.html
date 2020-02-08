@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+            <meta content="width=device-width, initial-scale=1.0" name="viewport">
+                <meta content="ie=edge" http-equiv="X-UA-Compatible">
+                    <title>
+                       Search Youtube Channel
+                    </title>
+                    <link href="bulma.css" rel="stylesheet" type="text/css">
+                        <link href="layout.css" rel="stylesheet" type="text/css">
+                            <script src="jquery-3.1.0.min.js">
+                            </script>
+                            <script src="loadingoverlay.min.js">
+                            </script>
+                            <script src="popup.js">
+                            </script>
+                        </link>
+                    </link>
+                </meta>
+            </meta>
+        </meta>
+    </head>
+    <body>
+        <div class="container" style="width: 500px;
+    height:100%;margin: 10px">
+            <h1 class="title" style="color: red">
+                 Search Youtube Channel
+            </h1>
+            <div class="field">
+                <div class="control">
+                    <input class="input" id="name" placeholder="Nhập tên" type="text" value="">
+                    </input>
+                </div>
+            </div>
+            <input class="button is-link" id="search" type="submit" value="Submit">
+                <span id="checkNameError" style="color:red;font-size: 20px">
+                </span>
+                <h1 style="margin-top: 10px;margin-bottom: 10px">
+                    <b>
+                        Kết quả
+                    </b>
+                </h1>
+                <table class="table is-bordered is-striped is-narrow is-hoverable is-fullwidth" id="tableResult">
+                    <thead>
+                        <tr>
+                            <th>
+                                Img
+                            </th>
+                            <th>Channel</th>
+                            <th>Subscribe</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </input>
+        </div>
+    </body>
+</html>
